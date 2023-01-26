@@ -1,6 +1,6 @@
 const Box = (props) => {
   //  Write your code here.
-  const { lassName, content } = props;
+  const { className, content } = props;
   return <p className={className}>{content}</p>;
 };
 
